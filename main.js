@@ -35,7 +35,7 @@ const starts = async (zeroyt7 = new WAConnection()) => {
     zeroyt7.sendMessage(from, buttonMessagesI, MessageType.buttonsMessage)
   }
 
-    fs.existsSync('./Zextz High7.json') && zeroyt7.loadAuthInfo('./Zextz High7.json')
+    fs.existsSync('./deffbotz.json') && zeroyt7.loadAuthInfo('./deffbotz.json')
     zeroyt7.on('connecting', () => {
         start('2', 'Script Zextz High7 Menghubungkan...')
     })
@@ -43,7 +43,7 @@ const starts = async (zeroyt7 = new WAConnection()) => {
         success('2', 'Terhubung Jangan Lupa Subscribe Zextz High7')
     })
     await zeroyt7.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./Zextz High7.json', JSON.stringify(zeroyt7.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./deffbotz.json', JSON.stringify(zeroyt7.base64EncodedAuthInfo(), null, '\t'))
 
     zeroyt7.on('chat-update', async (message) => {
         require('./Zextz.js')(zeroyt7, message, _welkom)
