@@ -652,36 +652,16 @@ menu =`
 └❏
 
 ╭─❒ ⌜ Random Image Menu ⌟ ❒
-├₹⃟ぁ ➣${prefix}art
-├₹⃟ぁ ➣${prefix}bts
-├₹⃟ぁ ➣${prefix}exo
-├₹⃟ぁ ➣${prefix}elf
-├₹⃟ぁ ➣${prefix}loli
-├₹⃟ぁ ➣${prefix}neko
-├₹⃟ぁ ➣${prefix}waifu
-├₹⃟ぁ ➣${prefix}shota
-├₹⃟ぁ ➣${prefix}husbu
-├₹⃟ぁ ➣${prefix}sagiri
-├₹⃟ぁ ➣${prefix}shinobu
-├₹⃟ぁ ➣${prefix}megumin
-├₹⃟ぁ ➣${prefix}wallnime
-├₹⃟ぁ ➣${prefix}chiisaihentai
-├₹⃟ぁ ➣${prefix}trap
-├₹⃟ぁ ➣${prefix}blowjob
-├₹⃟ぁ ➣${prefix}yaoi
-├₹⃟ぁ ➣${prefix}ecchi
-├₹⃟ぁ ➣${prefix}hentai
-├₹⃟ぁ ➣${prefix}ahegao
-├₹⃟ぁ ➣${prefix}hololewd
-├₹⃟ぁ ➣${prefix}sideoppai
-├₹⃟ぁ ➣${prefix}animefeets
-├₹⃟ぁ ➣${prefix}animebooty
-├₹⃟ぁ ➣${prefix}animethighss
-├₹⃟ぁ ➣${prefix}animearmpits
-├₹⃟ぁ ➣${prefix}hentaifemdom
-├₹⃟ぁ ➣${prefix}lewdanimegirls
-├₹⃟ぁ ➣${prefix}biganimetiddies
-├₹⃟ぁ ➣${prefix}hentai4everyone
+├₹⃟ぁ ➣${prefix}kartun
+├₹⃟ぁ ➣${prefix}tatasurya
+├₹⃟ぁ ➣${prefix}meme
+├₹⃟ぁ ➣${prefix}memeindo
+├₹⃟ぁ ➣${prefix}aesthetic
+├₹⃟ぁ ➣${prefix}darjokes
+├₹⃟ぁ ➣${prefix}ppcouple
+├₹⃟ぁ ➣${prefix}katakataimage
+├₹⃟ぁ ➣${prefix}pokemon
+├₹⃟ぁ ➣${prefix}doraemon
 └❏
 
 ╭─❒ ⌜ Asupan Menu ⌟ ❒
@@ -916,36 +896,16 @@ case 'randomimagemenu':
 	menu =
 `
 ╭─❒ ⌜ Random Image Menu ⌟ ❒
-├₹⃟ぁ ➣${prefix}art
-├₹⃟ぁ ➣${prefix}bts
-├₹⃟ぁ ➣${prefix}exo
-├₹⃟ぁ ➣${prefix}elf
-├₹⃟ぁ ➣${prefix}loli
-├₹⃟ぁ ➣${prefix}neko
-├₹⃟ぁ ➣${prefix}waifu
-├₹⃟ぁ ➣${prefix}shota
-├₹⃟ぁ ➣${prefix}husbu
-├₹⃟ぁ ➣${prefix}sagiri
-├₹⃟ぁ ➣${prefix}shinobu
-├₹⃟ぁ ➣${prefix}megumin
-├₹⃟ぁ ➣${prefix}wallnime
-├₹⃟ぁ ➣${prefix}chiisaihentai
-├₹⃟ぁ ➣${prefix}trap
-├₹⃟ぁ ➣${prefix}blowjob
-├₹⃟ぁ ➣${prefix}yaoi
-├₹⃟ぁ ➣${prefix}ecchi
-├₹⃟ぁ ➣${prefix}hentai
-├₹⃟ぁ ➣${prefix}ahegao
-├₹⃟ぁ ➣${prefix}hololewd
-├₹⃟ぁ ➣${prefix}sideoppai
-├₹⃟ぁ ➣${prefix}animefeets
-├₹⃟ぁ ➣${prefix}animebooty
-├₹⃟ぁ ➣${prefix}animethighss
-├₹⃟ぁ ➣${prefix}animearmpits
-├₹⃟ぁ ➣${prefix}hentaifemdom
-├₹⃟ぁ ➣${prefix}lewdanimegirls
-├₹⃟ぁ ➣${prefix}biganimetiddies
-├₹⃟ぁ ➣${prefix}hentai4everyone
+├₹⃟ぁ ➣${prefix}kartun
+├₹⃟ぁ ➣${prefix}tatasurya
+├₹⃟ぁ ➣${prefix}meme
+├₹⃟ぁ ➣${prefix}memeindo
+├₹⃟ぁ ➣${prefix}aesthetic
+├₹⃟ぁ ➣${prefix}darjokes
+├₹⃟ぁ ➣${prefix}ppcouple
+├₹⃟ぁ ➣${prefix}katakataimage
+├₹⃟ぁ ➣${prefix}pokemon
+├₹⃟ぁ ➣${prefix}doraemon
 └❏
  `
 teks =`©CREATOR By DEFFBOTz
@@ -3127,22 +3087,27 @@ but = [
         sendButImage(from, teks, "© DEFFBOTz ", gam, but)
 break
   case 'sewabot':
-tytyd = `
+gambar = fs.readFileSync('./media/donasi.jpg')
+	menunya =
+`
 ╭━━⬣ 
 ┃  [❗] 𝙉𝙊𝙏𝙀 [❗] 
 │ Yakin Mau Sewa BOT Bg?
 ┃ hubungi owner di bawah atau 
 │ tekan di bawah kalau Minat Pengen Sewa BOT
 ┃ 𝙃𝙪𝙗 = http://wa.me/6282132805286
-╰⬣
+╰⬣`
+
+teks =
+`JANGAN LUPA SUBSCRIBE YOUTUBE ©DEFFBOTz
+https://youtube.com/channel/UCx6TnPIwwnMJM59XoUUInIw
 `
-ppk = fs.readFileSync('./media/donasi.jpg')
 but = [
-{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Owner Saya' }, type: 1 },
-{ buttonId: `${prefix}menu`, buttonText: { displayText: 'Cek Menu' }, type: 1 },
-{ buttonId: `${prefix}command`, buttonText: { displayText: 'Cek LIST' }, type: 1 }
-]
-sendButton(from, tytyd, faketeks, ppk, but, mek)
+          { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER' }, type: 1 },
+          { buttonId: `${prefix}allmenu`, buttonText: { displayText: 'ALL MENU' }, type: 1 },
+          { buttonId: `${prefix}command`, buttonText: { displayText: 'LIST' }, type: 1 }
+        ]
+        sendButImage(from, menunya, teks, gambar, but)
 break
 
 // subscribe DEFFBOTz Ye
